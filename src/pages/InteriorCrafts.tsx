@@ -5,31 +5,31 @@ import ProductGallery from '../components/ProductGallery';
 const interiorProducts = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "../images/InteriorDecoration/ModernLivingSpaces.jpg",
     title: "Modern Living Spaces",
     description: "Contemporary interior designs for modern living"
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "../images/InteriorDecoration/CustomWallFinishes3.jpg",
     title: "Custom Wall Finishes",
     description: "Unique wall treatments and artistic finishes"
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "../images/InteriorDecoration/KitchenRenovations.jpg",
     title: "Kitchen Renovations",
     description: "Complete kitchen transformations with custom finishes"
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1616137466211-f939a420be84?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "../images/InteriorDecoration/OfficeSpaces.jpg",
     title: "Office Spaces",
     description: "Professional office interior design and decoration"
   },
   {
     id: 5,
-    image: "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "../images/InteriorDecoration/DecorativeElements.jpg",
     title: "Decorative Elements",
     description: "Artistic touches that elevate your space"
   }
@@ -47,7 +47,7 @@ const InteriorCrafts = () => {
           'Decorative Elements',
           'Space Optimization'
         ]}
-        image="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        image="../images/InteriorDecoration/FirstImage.jpg"
         imageAlt="Interior Decoration Services"
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

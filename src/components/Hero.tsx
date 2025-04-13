@@ -15,8 +15,9 @@ const Hero = () => {
           className="max-w-4xl mx-auto py-8 md:py-16"
         > 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-            Where Art & Craftmanship<br />
-            Meet Technology
+            {/* Where Art & Craftmanship<br />
+            Meet Technology */}
+            <img src="../../Hutu.png" alt="Hutu" />
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 md:mb-12 max-w-2xl mx-auto">
             We blend creativity with technical expertise to deliver exceptional solutions

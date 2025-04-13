@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Hutu from 'react-router-dom'
 import HutuLogo from '../HutuLogo.svg';
 import { Menu, MessageCircle, X } from 'lucide-react';
 
@@ -7,7 +8,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const openWhatsApp = () => {
-    window.open('https://wa.me/+1234567890', '_blank');
+    window.open('https://wa.me/+254 741 207721', '_blank');
   };
 
   return (
